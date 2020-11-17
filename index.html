@@ -1,73 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="pinterest" content="nopin">
-    <meta name="robots" content="noindex">
-    <title>Paged document Nº1</title>
-    <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC2ElEQVRYR81XP0wTYRT/vfuTijGRDl0aCWWQARJhd+gV42Bqk3ZwlslVjE4ulMHRpI460dmhxEJchPsYjGtrggMMNMGwNBFcENK7+8x3R+0fevfdlRK55Ybv/fl9v/fe994jhPwMszJOXE1zjjyIUgBPAeIvPt4AqAHOG0RY42Rvs0zhOIxpkgkZ5ucUnNYyiBZlsj3nnK9C0VdY5lEjSM8XgLgxHFU4XorkuF+YUASsd36MDATgOueaCWD+Us47yjWQlRkE4gIAw9yYB7dNgMZH5PzcDD8GqRmWyda67fYA8G6u7o/eedulAGFPdTPxD8AV0O5HYE84OgA2qyUQno+Wdh9rHCvsQa4oTl0Abqlxaz+M8zvOEe7Zh7hrNzHBvVI/oHHsqQl8V5P4qcTDmAFImxIl6gHYqq4CeCrTzLR28aRV9xU7IR3r2gyYPi0zJc7LbCG3SOexP5JpPDv7inn7UCbmntfVJN7H7stlyYqTYVbz4KgESctuPkj3oz4HU8YEoUAy+kXMX59+kd+mT0KEoxRLy3KiTMbWJwZQ2s9DtrWDbOtHZABCYUOfwYY+G6DLt8nYrDZAmPSTWjpjmLabQwHYVRMoxYwg3ZoIAQ+SeHtSwRisoQCIMLwaywfqXimAP9Dw8mZBAuD/hqB+DZJQ8gqKMnxxyiLngaD/zY2H+KXcCgpB+Ro8RN70M9KnuKYm8SHEU8wWchS5GT1u7fiGQ9C+rs/Kn2AvKF4zcrthxHY8J9qx08SE7RF3oMaxpyTwTZ2UxbyTD93t2AWxWS2CsDzUixNVqX8g8Vhwc4EBmItqL6J8HWQZ7bnw4lDqaKI33I5oNJw4x28oVmrgUNq24I7ljsNGDsJ1rhiBY3kHxMjD0UN7N12S1UxbunRicqxAsUqRVrNuhOclKkZo6dDalwhlkFYcejntzyq3SqAZEOu5t5qL1a1dMXVAzOgkEngNsFjY9fwvnNhH1RL5OH0AAAAASUVORK5CYII=" id="favicon" rel="icon" type="image/x-icon">
-    <style>
-      @import "./_fonts/fira/fira.css";
-      @import "./_fonts/nanook/nanook.css";
-      @import "./_fonts/avara/avara.css";
-      
-    </style>
-    <script>
-      /***********
-        MODERNIZR
-      ***********/
-      
-      /*! modernizr 3.5.0 (Custom Build) | MIT *
-       * https://modernizr.com/download/?-touchevents-setclasses !*/
-      !function(e,n,t){function o(e,n){return typeof e===n}function s(){var e,n,t,s,a,i,r;for(var l in c)if(c.hasOwnProperty(l)){if(e=[],n=c[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(s=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],r=i.split("."),1===r.length?Modernizr[r[0]]=s:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=s),f.push((s?"":"no-")+r.join("-"))}}function a(e){var n=u.className,t=Modernizr._config.classPrefix||"";if(p&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(o,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),p?u.className.baseVal=n:u.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):p?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function r(){var e=n.body;return e||(e=i(p?"svg":"body"),e.fake=!0),e}function l(e,t,o,s){var a,l,f,c,d="modernizr",p=i("div"),h=r();if(parseInt(o,10))for(;o--;)f=i("div"),f.id=s?s[o]:d+(o+1),p.appendChild(f);return a=i("style"),a.type="text/css",a.id="s"+d,(h.fake?h:p).appendChild(a),h.appendChild(p),a.styleSheet?a.styleSheet.cssText=e:a.appendChild(n.createTextNode(e)),p.id=d,h.fake&&(h.style.background="",h.style.overflow="hidden",c=u.style.overflow,u.style.overflow="hidden",u.appendChild(h)),l=t(p,e),h.fake?(h.parentNode.removeChild(h),u.style.overflow=c,u.offsetHeight):p.parentNode.removeChild(p),!!l}var f=[],c=[],d={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){c.push({name:e,fn:n,options:t})},addAsyncTest:function(e){c.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=d,Modernizr=new Modernizr;var u=n.documentElement,p="svg"===u.nodeName.toLowerCase(),h=d._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];d._prefixes=h;var m=d.testStyles=l;Modernizr.addTest("touchevents",function(){var t;if("ontouchstart"in e||e.DocumentTouch&&n instanceof DocumentTouch)t=!0;else{var o=["@media (",h.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");m(o,function(e){t=9===e.offsetTop})}return t}),s(),a(f),delete d.addTest,delete d.addAsyncTest;for(var v=0;v<Modernizr._q.length;v++)Modernizr._q[v]();e.Modernizr=Modernizr}(window,document); // jshint ignore:line
-    </script>
-    <script>
-      /* store contains content data */
-      window.store = {
-        request: {
-          slugProjectName: "",
-          metaFileName: "",
-          display: ""
-        },
-        projects: {"exemple-de-projet":{"medias":{"20161225-223739.jpeg.txt":{"date_created":"2016-04-04 10:28:02","date_modified":"2018-05-24 23:26:39","date_uploaded":"2018-05-24 23:24:24","media_filename":"20161225-223739.jpeg","type":"image","fav":false,"ratio":0.6672222222222223,"caption":"(en classe) Vue d’ensemble d’un kit mobile installé en classe.","thumbs":[{"path":"_thumbs\\exemple-de-projet\\20161225-223739.jpeg.180.jpeg?v=1578076922000","size":180},{"path":"_thumbs\\exemple-de-projet\\20161225-223739.jpeg.360.jpeg?v=1578076922000","size":360},{"path":"_thumbs\\exemple-de-projet\\20161225-223739.jpeg.1600.jpeg?v=1578076922000","size":1600}],"metaFileName":"20161225-223739.jpeg.txt"},"20161225-223750.jpeg.txt":{"date_created":"2016-04-04 10:32:06","date_modified":"2018-05-24 23:26:48","date_uploaded":"2018-05-24 23:24:25","media_filename":"20161225-223750.jpeg","type":"image","fav":false,"ratio":0.6672222222222223,"caption":"(en classe)\nVisionnage et validation d’une vidéo qui vient d’être capturée.","thumbs":[{"path":"_thumbs\\exemple-de-projet\\20161225-223750.jpeg.180.jpeg?v=1578076922000","size":180},{"path":"_thumbs\\exemple-de-projet\\20161225-223750.jpeg.360.jpeg?v=1578076922000","size":360},{"path":"_thumbs\\exemple-de-projet\\20161225-223750.jpeg.1600.jpeg?v=1578076922000","size":1600}],"metaFileName":"20161225-223750.jpeg.txt"},"20161225-223806.jpeg.txt":{"date_created":"2017-01-20 18:37:28","date_modified":"2018-05-24 23:25:55","date_uploaded":"2018-05-24 23:24:25","media_filename":"20161225-223806.jpeg","type":"image","fav":false,"ratio":0.6666666666666666,"caption":"Kit mobile v1 de do•doc.","thumbs":[{"path":"_thumbs\\exemple-de-projet\\20161225-223806.jpeg.180.jpeg?v=1578076922000","size":180},{"path":"_thumbs\\exemple-de-projet\\20161225-223806.jpeg.360.jpeg?v=1578076922000","size":360},{"path":"_thumbs\\exemple-de-projet\\20161225-223806.jpeg.1600.jpeg?v=1578076922000","size":1600}],"metaFileName":"20161225-223806.jpeg.txt"}}},"test":{"medias":{"text-20201117_225143-z19.md.txt":{"date_created":"2020-11-17 22:51:43","date_modified":"2020-11-17 22:53:39","date_uploaded":"2020-11-17 22:51:43","media_filename":"text-20201117_225143-z19.md","type":"text","fav":false,"content":"<p>Page test Do-Doc</p><p><br></p><p>Lab Itinérant</p>","metaFileName":"text-20201117_225143-z19.md.txt"}}}},
-        authors: {},
-        publications: {"paged-document-n-1":{"name":"Paged document Nº1","authors":"","keywords":"","date_created":"2020-11-17 22:43:12","date_modified":"2020-11-17 22:43:12","template":"page_by_page","style":"standard","width":210,"height":297,"pages":[{"id":"1605649392253_a"}],"slugFolderName":"paged-document-n-1","medias":{"20161225-223739-jpeg-txt-3hf.txt":{"slugProjectName":"exemple-de-projet","slugMediaName":"20161225-223739.jpeg.txt","date_modified":"2020-11-17 22:53:45","page_id":"1605649392253_a","x":10,"y":90,"z_index":4,"metaFileName":"20161225-223739-jpeg-txt-3hf.txt"},"20161225-223750-jpeg-txt-1c9.txt":{"slugProjectName":"exemple-de-projet","slugMediaName":"20161225-223750.jpeg.txt","date_modified":"2020-11-17 22:53:40","page_id":"1605649392253_a","x":70,"y":20,"z_index":3,"metaFileName":"20161225-223750-jpeg-txt-1c9.txt"},"20161225-223806-jpeg-txt-yda.txt":{"slugProjectName":"exemple-de-projet","slugMediaName":"20161225-223806.jpeg.txt","date_modified":"2020-11-17 22:53:46","page_id":"1605649392253_a","x":90,"y":170,"z_index":5,"metaFileName":"20161225-223806-jpeg-txt-yda.txt"},"text-20201117-225143-z19-md-txt-iqb.txt":{"slugProjectName":"test","slugMediaName":"text-20201117_225143-z19.md.txt","date_modified":"2020-11-17 22:53:16","page_id":"1605649392253_a","x":10,"y":20,"z_index":2,"metaFileName":"text-20201117-225143-z19-md-txt-iqb.txt"}},"fullFolderPath":"C:\\Users\\Linko\\Documents\\dodoc2\\_publications\\paged-document-n-1"}},
-        stopmotions: {}
-      };
-      
-      /* state contains settings data, time and client specific data */
-      window.state = {
-        appVersion: "8.2.5",
-        session_password: "",
-        authorsFolder: "_authors",
-        protocol: "https",
-        connected: false,
-        authentificated: false,
-        localNetworkInfos: {},
-        mode: "export_publication",
-        dev_mode: "production",
-        noticeOfError: "",
-        is_electron: !!(window && window.process && window.process.type),
-        is_darwin: !!(window && window.process && window.process.platform === 'darwin'),
-        clients: [],
-        list_authorized_folders: [],
-        list_of_publications_templates: [
-    "page_by_page",
-    "carreau",
-    "video_assemblage",
-    "stopmotion_animation",
-    "mix_audio_and_video",
-    "mix_audio_and_image"
-],
-      };
-      
-    </script>
-  </head>
-  <body data-mode="export_publication">
-    <div id="app"></div>
-    <script src="/socket.io.js"></script>
-    <script src="./_dist/build.js"></script>
-  </body>
+<body>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
+</body>
 </html>
